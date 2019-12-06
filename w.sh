@@ -85,7 +85,7 @@ install_qemu_win(){
 apt-get install qemu -y
 
 # 安装win到虚拟机
-wget https://www.dropbox.com/s/gq3e3feukskw72k/winxp.img
+wget http://qiniu.img.hu60.cn/file-hash-img-e8bc85a431633ab0228ee67fe4f16107317068577.img
 mkdir /root/IMG
 mv winxp.img /root/IMG/win.img
 
